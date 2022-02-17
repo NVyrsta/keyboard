@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+    background-color: rgb(148, 144, 144);
+}
+
+.container {
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 400px;
+    width: 800px;
+    margin: 100px auto;
+}
+
+.display {
+    margin-bottom: 10px;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.row {
+    margin-bottom: 8px;
+    display: flex;
+    height: 10%;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row1 {
+    padding: 30px 40px;
+}
+
+.row1,
+.row6 {
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+#txt {
+    width: 800px;
+    height: 160px;
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50px;
+    border-radius: 10px;
+    background-color: wheat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pressed {
+    color: wheat;
+    background-color: rgb(78, 78, 78);
+}
+
+.dbkey {
+    height: 100%;
+    width: 80px;
+    border-radius: 10px;
+}
+
+#shift-left,
+#shift-right {
+    width: 120px;
+}
+
+#caps-lock,
+#enter {
+    width: 100px;
+}
+
+#tab,
+#back-slash {
+    width: 70px;
+}
+
+#backspace {
+    width: 100px;
+}
